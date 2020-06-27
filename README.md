@@ -4,7 +4,7 @@
 ### Development tools and libraries specialized for Baaz Framework
 
 This is the home of the DevKit and the Baaz Framework CLI code. You can find the Baaz Framework CLI specific README
-[here](/baaz-cli/README.md).
+[here](/README.md).
 
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/dominicg666/baaz-cli/master.svg?label=circleci)](https://circleci.com/gh/dominicg666/baaz-cli) [![Dependency Status](https://david-dm.org/dominicg666/baaz-cli.svg)](https://david-dm.org/dominicg666/baaz-cli) [![devDependency Status](https://david-dm.org/baaz/baaz-cli/dev-status.svg)](https://david-dm.org/dominicg666/baaz-cli?type=dev) 
@@ -23,7 +23,7 @@ This is the home of the DevKit and the Baaz Framework CLI code. You can find the
 
 ## The Goal of Baaz CLI
 
-The Baaz CLI creates, manages, builds and test your PWA projects. It's built on top of the
+The Baaz CLI creates, manages, builds and test your Baaz PWA projects. It's built on top of the
 Baaz Framework DevKit.
 
 ## The Goal of DevKit
@@ -33,28 +33,46 @@ analyze your code.
 
 # Getting Started - Local Development
 
+1. Clone to your local computer using `git`.
+1. Make sure that you have Node 10.13 or later installed. See instructions [here](https://nodejs.org/en/download/).
+1. Make sure that you have `yarn` installed; see instructions [here](https://yarnpkg.com/lang/en/docs/install/).
+1. Run `yarn` (no arguments) from the root of your clone of this project to install dependencies.
+
 ## Installation
 
 To get started locally, follow these instructions:
 
-1. If you haven't done it already, [make a fork of this repo](https://github.com/dominicg666/baaz-cli/fork).
-1. Clone to your local computer using `git`.
-1. Make sure that you have Node 10.14 or later installed. See instructions [here](https://nodejs.org/en/download/).
-1. Make sure that you have `yarn` installed; see instructions [here](https://yarnpkg.com/lang/en/docs/install/).
-1. Run `yarn` (no arguments) from the root of your clone of this project to install dependencies.
-
-## Building and Installing the CLI
-
-To make a local build:
-
+1. Run the command your shell prompt.
 ```shell
-yarn build --local
+npm install -g  @baaz/cli
 ```
 
-This generates a number of tarballs in the `dist/` directory. To actually use
-the locally built tools, switch to another repository reproducing the specific
-issue you want to fix (or just generate a local repo with `baaz --init`). Then
-install the locally built packages:
+## Usage
+
+```
+baaz --help
+
+```
+Generating and serving an Baaz project via a development server:
+
+```
+baaz --init
+
+```
+
+Project Run Command:
+
+```
+yarn run watch
+
+```
+
+Project Build Command:
+
+```
+yarn run build
+
+```
 
 # Packages
 
