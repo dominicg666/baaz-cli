@@ -98,6 +98,6 @@ This is a monorepo which contains many tools and packages:
 
 | Project | Package | Version | Links |
 |---|---|---|---|
-**Webpack Baaz Plugin** | [`@baaz/buildpack`](https://npmjs.com/package/@baaz/buildpack) | [![latest](https://img.shields.io/npm/v/%40baaz%2Fbuildpack/latest.svg)](https://npmjs.com/package/@baaz/webpack) |  [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/dominicg666/baaz-adapter)
+**Webpack Baaz Plugin** | [`@baaz/buildpack`](https://npmjs.com/package/@baaz/buildpack) | [![latest](https://img.shields.io/npm/v/%40baaz%2Fbuildpack/latest.svg)](https://npmjs.com/package/@baaz/buildpack) |  [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/dominicg666/buildpack)
 
 
