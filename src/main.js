@@ -13,20 +13,17 @@ const access = promisify(fs.access);
 const copy = promisify(ncp);
 
 async function updateRepo() {
-    await execSync('git clone https://github.com/dominicg666/pwa.git', {
+    return await execSync('git clone https://github.com/dominicg666/pwa.git', {
         stdio: [0, 1, 2], // we need this so node will print the command output
         cwd: path.resolve(__dirname, '../templates'), // path to where you want to save the file
     })
 }
 
 async function copyTemplateFiles(options) {
-    await rimraf(path.resolve(__dirname, 'pwa'), function () {
-        return updateRepo()
-    });
-
     return copy(options.templateDirectory, options.targetDirectory, {
         clobber: false,
     });
+
 }
 
 
@@ -54,6 +51,10 @@ export async function createProject(options) {
     );
 
     options.templateDirectory = templateDir;
+    await rimraf(templateDir, async function () {
+
+    });
+    await updateRepo()
 
     try {
         await access(templateDir, fs.constants.R_OK);
