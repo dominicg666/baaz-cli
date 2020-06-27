@@ -92,7 +92,7 @@ This is a monorepo which contains many tools and packages:
 
 | Project | Package | Version | Links |
 |---|---|---|---|
-**Baaz Adapter** | [`@baaz/adapter`](https://npmjs.com/package/@baaz/adapter) | [![latest](https://img.shields.io/npm/v/%40baaz%adapter/latest.svg)](https://npmjs.com/package/@baaz/adapter) |  [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/baaz/baaz-adapter)
+**Baaz Adapter** | [`@baaz/adapter`](https://npmjs.com/package/@baaz/adapter) | [![latest](https://img.shields.io/npm/v/%40baaz%adapter/latest.svg)](https://npmjs.com/package/@baaz/adapter) |  [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/dominicg666/baaz-adapter)
 
 #### Misc
 
