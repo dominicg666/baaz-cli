@@ -34,7 +34,7 @@ analyze your code.
 # Getting Started - Local Development
 
 1. Clone to your local computer using `git`.
-1. Make sure that you have Node 10.13 or later installed. See instructions [here](https://nodejs.org/en/download/).
+1. Make sure that you have Node 10.14 or later installed. See instructions [here](https://nodejs.org/en/download/).
 1. Make sure that you have `yarn` installed; see instructions [here](https://yarnpkg.com/lang/en/docs/install/).
 1. Run `yarn` (no arguments) from the root of your clone of this project to install dependencies.
 
