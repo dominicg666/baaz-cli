@@ -1,6 +1,6 @@
 {
   "name": "@baaz/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "src/index.js",
   "publishConfig": {
     "access": "public"
@@ -12,7 +12,16 @@
     "cli": "bin/baaz",
     "baaz": "bin/baaz"
   },
-  "keywords": [],
+  "keywords": [
+    "react pwa",
+    "react_pwa",
+    "@react_pwa",
+    "buildpack",
+    "react",
+    "pwa",
+    "babel",
+    "webpack"
+  ],
   "files": [
     "bin/",
     "src/",
