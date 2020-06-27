@@ -16,12 +16,12 @@ This is the home of the DevKit and the Baaz Framework CLI code. You can find the
 
 
 ### Quick Links
-[Gitter](https://gitter.im/dominicg666/baaz-cli) | [Contributing](/CONTRIBUTING.md) | [Angular CLI](http://github.com/dominicg666/baaz-cli) | 
+[Gitter](https://gitter.im/dominicg666/baaz-cli) | [Contributing](/CONTRIBUTING.md) | [Baaz CLI](http://github.com/dominicg666/baaz-cli) | 
 |---|---|---|
 
 ----
 
-## The Goal of Angular CLI
+## The Goal of Baaz CLI
 
 The Baaz CLI creates, manages, builds and test your PWA projects. It's built on top of the
 Baaz Framework DevKit.
@@ -66,7 +66,7 @@ This is a monorepo which contains many tools and packages:
 
 | Project | Package | Version | Links |
 |---|---|---|---|
-**Baaz CLI** | [`@angular/cli`](https://npmjs.com/package/@baaz/cli) | [![latest](https://img.shields.io/npm/v/%40@baaz%2Fcli/latest.svg)](https://npmjs.com/package/@baaz/cli) | [![README](https://img.shields.io/badge/README--green.svg)](/dominicg666/baaz-cli/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/dominicg666/baaz-cli)
+**Baaz CLI** | [`@baaz/cli`](https://npmjs.com/package/@baaz/cli) | [![latest](https://img.shields.io/npm/v/%40@baaz%2Fcli/latest.svg)](https://npmjs.com/package/@baaz/cli) | [![README](https://img.shields.io/badge/README--green.svg)](/dominicg666/baaz-cli/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/dominicg666/baaz-cli)
 
 
 
