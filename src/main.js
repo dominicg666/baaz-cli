@@ -9,13 +9,14 @@ import Listr from 'listr';
 import { projectInstall } from 'pkg-install';
 import { execSync } from 'child_process';
 import rimraf from 'rimraf';
+const rmrfAsync  = promisify(rimraf);
 const access = promisify(fs.access);
 const copy = promisify(ncp);
 
 async function updateRepo() {
     return await execSync('git clone https://github.com/dominicg666/pwa.git', {
         stdio: [0, 1, 2], // we need this so node will print the command output
-        cwd: path.resolve(__dirname, '../templates'), // path to where you want to save the file
+        cwd: path.resolve(__dirname, './templates'), // path to where you want to save the file
     })
 }
 
@@ -46,14 +47,12 @@ export async function createProject(options) {
     const currentFileUrl = import.meta.url;
     const templateDir = path.resolve(
         new URL(currentFileUrl).pathname,
-        '../../templates',
+        '../templates',
         options.template.toLowerCase()
     );
 
     options.templateDirectory = templateDir;
-    await rimraf(templateDir, async function () {
-
-    });
+    await rmrfAsync(templateDir);
     await updateRepo()
 
     try {
