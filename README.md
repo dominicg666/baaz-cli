@@ -13,7 +13,9 @@ This is the home of the DevKit and the Baaz Framework CLI code. You can find the
 
 [![GitHub forks](https://img.shields.io/github/forks/dominicg666/baaz-cli.svg?style=social&label=Fork)](https://github.com/dominicg666/baaz-cli/fork) [![GitHub stars](https://img.shields.io/github/stars/dominicg666/baaz-cli.svg?style=social&label=Star)](https://github.com/dominicg666/baaz-cli) 
 
+## Documentation
 
+[here](https://baazframework.github.io/)
 
 ### Quick Links
 [Gitter](https://gitter.im/dominicg666/baaz-cli) | [Contributing](/CONTRIBUTING.md) | [Baaz CLI](http://github.com/dominicg666/baaz-cli) | 
