@@ -20,7 +20,8 @@
     "react",
     "pwa",
     "babel",
-    "webpack"
+    "webpack",
+    "buikit"
   ],
   "files": [
     "bin/",
