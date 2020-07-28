@@ -23,9 +23,12 @@
     "webpack",
     "buikit",
     "buikit-drivers",
+    "@baaz/cli",
     "@baaz/adapter",
     "@baaz/babel-preset-adapter",
-    "@baaz/buildpack"
+    "@baaz/buildpack",
+    "react slick slider",
+    "react webpack"
   ],
   "files": [
     "bin/",
