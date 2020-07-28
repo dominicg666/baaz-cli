@@ -1,6 +1,6 @@
 {
   "name": "@baaz/cli",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "main": "src/index.js",
   "publishConfig": {
     "access": "public"
@@ -21,7 +21,11 @@
     "pwa",
     "babel",
     "webpack",
-    "buikit"
+    "buikit",
+    "buikit-drivers",
+    "@baaz/adapter",
+    "@baaz/babel-preset-adapter",
+    "@baaz/buildpack"
   ],
   "files": [
     "bin/",
